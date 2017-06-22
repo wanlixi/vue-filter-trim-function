@@ -1,5 +1,5 @@
 # -
-输入框过滤空格、回车，自己用ES6语法封装的方法，可以通过import { checkInputValue } from 'api'引入到项目指定的文件中，即可使用，用法如下：
+输入框过滤空格、回车，自己用ES6语法封装的方法，可以通过 ``` import { checkInputValue } from 'api' ``` 引入到项目指定的文件中，即可使用，用法如下：
 ```
 if (checkInputValue(inputValue) == '') {
 //输入为空，请重新输入
